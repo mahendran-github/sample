@@ -9,7 +9,7 @@ const PORT = 8000;
 app.use(cors());
 app.use(express.json());
  
-// Test route
+// Test route ex
 app.get('/', (req, res) => {
   res.send("Backend running with PostgreSQL 🚀");
 });
